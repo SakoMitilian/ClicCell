@@ -1,6 +1,5 @@
 <?php
 include 'connection.php';
-session_start();
 
 // Check if product ID is provided
 if (!isset($_GET['id'])) {

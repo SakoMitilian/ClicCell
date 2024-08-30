@@ -16,7 +16,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $image = $_FILES['image']['name'];
     $image_temp = $_FILES['image']['tmp_name'];
 
-    // Directory where the image will be uploadeds
+    // Directory where the image will be uploaded
     $upload_dir = 'uploads/';
     $upload_file = $upload_dir . basename($image);
 

@@ -1,7 +1,6 @@
 <?php
 include 'connection.php';
 include 'header.php';
-session_start();
 ?>
 
 <section id="contact" class="contact">
