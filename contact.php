@@ -37,7 +37,7 @@ include 'header.php';
                     </div>
                 </div>
 
-                <form id="contactForm" action="submit-form.php" method="post" role="form" class="php-email-form mt-4">
+                <form id="contactForm" action="submit-form.php" method="post" role="form" class="php-email-form">
                     <div class="row">
                         <div class="col-md-6 form-group">
                             <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
