@@ -48,7 +48,7 @@ session_start(); // Start the session
             <li><a class="nav-link scrollto active" href="index.php">Home</a></li>
             <li><a class="nav-link scrollto" href="#about">About</a></li>
             <li><a class="nav-link scrollto" href="#services">Services</a></li>
-            <li><a class="nav-link scrollto " href="#portfolio">Products</a></li>
+            <li><a class="nav-link scrollto " href="products.php">Products</a></li>
             <li><a class="nav-link scrollto" href="contact.php">Contact</a></li>
 
             <?php if(isset($_SESSION['email'])): ?>

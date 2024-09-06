@@ -88,10 +88,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                             <div class="form-group">
                                 <label for="category">Category:</label>
                                 <select class="form-control" id="category" name="category" required>
-                                    <option value="iphone">iPhone</option>
-                                    <option value="samsung">Samsung</option>
+                                    <option value="iphone">Phone</option>
+                                    <option value="samsung">Computer</option>
                                     <option value="laptop">Laptop</option>
-                                    <option value="console">Console</option>
+                                    <option value="console">Accessories</option>
                                 </select>
                             </div>
                             <div class="form-group">
