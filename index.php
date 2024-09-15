@@ -3,7 +3,7 @@ include 'connection.php';
 include 'header.php';
 ?>
 
-  <!-- ======= Hero Sections ======= -->
+  <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center">
     <div class="container text-center position-relative" data-aos="fade-in" data-aos-delay="200">
       <h1>Your New Online Presence with Clic Cell</h1>
