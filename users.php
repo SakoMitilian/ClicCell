@@ -37,8 +37,8 @@ $result = $conn->query($sql);
     <title>User Management</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/assets/css/styles.css">
-    <link rel="stylesheet" href="/assets/css/user.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/user.css">
 </head>
 <body>
 <a href="admin.php" class="logo"><img src="/images/CLIC_CELL-modified.png" width="50px" height="50px"></a>

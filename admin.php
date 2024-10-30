@@ -3,7 +3,7 @@ include 'connection.php';
 session_start();
 
 if (!isset($_SESSION['is_superuser']) || !$_SESSION['is_superuser']) {
-  header("Location: /error-404.html");
+  header("Location: /error-404.php");
   exit();
 }
 ?>
@@ -17,22 +17,22 @@ if (!isset($_SESSION['is_superuser']) || !$_SESSION['is_superuser']) {
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Clic Cell </title>
     <!-- plugins:css -->
-    <link rel="stylesheet" href="/assets/css/feather.css">
-    <link rel="stylesheet" href="/assets/css/materialdesignicons.min.css">
-    <link rel="stylesheet" href="/assets/css/themify-icons.css">
-    <link rel="stylesheet" href="/assets/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/assets/css/typicons.css">
-    <link rel="stylesheet" href="/assets/css/simple-line-icons.css">
-    <link rel="stylesheet" href="/assets/css/vendor.bundle.base.css">
-    <link rel="stylesheet" href="/assets/css/bootstrap-datepicker.min.css">
+    <link rel="stylesheet" href="assets/css/feather.css">
+    <link rel="stylesheet" href="assets/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="assets/css/themify-icons.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/typicons.css">
+    <link rel="stylesheet" href="assets/css/simple-line-icons.css">
+    <link rel="stylesheet" href="assets/css/vendor.bundle.base.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-datepicker.min.css">
     <!-- endinject -->
     <!-- Plugin css for this page -->
-    <link rel="stylesheet" href="/assets/css/dataTables.bootstrap4.css">
-    <link rel="stylesheet" type="text/css" href="/assets/css/select.dataTables.min.css">
-    <script src="/assets/js/myscript.js"></script>
+    <link rel="stylesheet" href="assets/css/dataTables.bootstrap4.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/select.dataTables.min.css">
+    <script src="assets/js/myscript.js"></script>
     <!-- End plugin css for this page -->
     <!-- inject:css -->
-    <link rel="stylesheet" href="/assets/css/styless.css">
+    <link rel="stylesheet" href="assets/css/styless.css">
     <!-- endinject -->
   </head>
   <body class="with-welcome-text">
@@ -54,9 +54,9 @@ if (!isset($_SESSION['is_superuser']) || !$_SESSION['is_superuser']) {
             </button>
           </div>
           <div>
-          <a href="admin.php" class="logo"><img src="/images/CLIC_CELL-modified.png" width="100px" height="100px"></a>
+          <a href="admin.php" class="logo"><img src="images/CLIC_CELL-modified.png" width="100px" height="100px"></a>
             <a class="navbar-brand brand-logo-mini" href="admin.php">
-              <img src="/images/logo-mini.svg" alt="logo" />
+              <img src="images/logo-mini.svg" alt="logo" />
             </a>
           </div>
         </div>
@@ -166,7 +166,7 @@ if (!isset($_SESSION['is_superuser']) || !$_SESSION['is_superuser']) {
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item preview-item">
                   <div class="preview-thumbnail">
-                    <img src="/images/faces/face10.jpg" alt="image" class="img-sm profile-pic">
+                    <img src="images/faces/face10.jpg" alt="image" class="img-sm profile-pic">
                   </div>
                   <div class="preview-item-content flex-grow py-2">
                     <p class="preview-subject ellipsis fw-medium text-dark">Marian Garner </p>
@@ -175,7 +175,7 @@ if (!isset($_SESSION['is_superuser']) || !$_SESSION['is_superuser']) {
                 </a>
                 <a class="dropdown-item preview-item">
                   <div class="preview-thumbnail">
-                    <img src="/images/faces/face12.jpg" alt="image" class="img-sm profile-pic">
+                    <img src="images/faces/face12.jpg" alt="image" class="img-sm profile-pic">
                   </div>
                   <div class="preview-item-content flex-grow py-2">
                     <p class="preview-subject ellipsis fw-medium text-dark">David Grey </p>
@@ -184,7 +184,7 @@ if (!isset($_SESSION['is_superuser']) || !$_SESSION['is_superuser']) {
                 </a>
                 <a class="dropdown-item preview-item">
                   <div class="preview-thumbnail">
-                    <img src="/images/faces/face1.jpg" alt="image" class="img-sm profile-pic">
+                    <img src="images/faces/face1.jpg" alt="image" class="img-sm profile-pic">
                   </div>
                   <div class="preview-item-content flex-grow py-2">
                     <p class="preview-subject ellipsis fw-medium text-dark">Travis Jenkins </p>
@@ -195,10 +195,10 @@ if (!isset($_SESSION['is_superuser']) || !$_SESSION['is_superuser']) {
             </li>
             <li class="nav-item dropdown d-none d-lg-block user-dropdown">
               <a class="nav-link" id="UserDropdown" href="#" data-bs-toggle="dropdown" aria-expanded="false">
-                <img class="img-xs rounded-circle" src="/images/faces/face8.jpg" alt="Profile image"> </a>
+                <img class="img-xs rounded-circle" src="images/CLIC_CELL-modified.png" alt="Profile image"> </a>
               <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="UserDropdown">
                 <div class="dropdown-header text-center">
-                  <img class="img-md rounded-circle" src="/images/faces/face8.jpg" alt="Profile image">
+                  <img class="img-md rounded-circle" src="" alt="Profile image">
                   <p class="mb-1 mt-3 fw-semibold">Allen Moreno</p>
                   <p class="fw-light text-muted mb-0">allenmoreno@gmail.com</p>
                 </div>
@@ -238,8 +238,8 @@ if (!isset($_SESSION['is_superuser']) || !$_SESSION['is_superuser']) {
               </a>
               <div class="collapse" id="ui-basic">
                 <ul class="nav flex-column sub-menu">
-                  <li class="nav-item"> <a class="nav-link" href="/addproduct.php">Add Product</a></li>
-                  <li class="nav-item"> <a class="nav-link" href="/viewproduct.php">View Products</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="addproduct.php">Add Product</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="viewproduct.php">View Products</a></li>
                 </ul>
               </div>
             </li>
@@ -275,9 +275,9 @@ if (!isset($_SESSION['is_superuser']) || !$_SESSION['is_superuser']) {
               </a>
               <div class="collapse" id="tables">
                 <ul class="nav flex-column sub-menu">
-                  <li class="nav-item"> <a class="nav-link" href="/users.php">All users</a></li>
-                  <li class="nav-item"> <a class="nav-link" href="/super.php">Super users</a></li>
-                  <li class="nav-item"> <a class="nav-link" href="/register.php">Create New User</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="users.php">All users</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="super.php">Super users</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="register.php">Create New User</a></li>
                 </ul>
               </div>
             </li>
@@ -301,7 +301,7 @@ if (!isset($_SESSION['is_superuser']) || !$_SESSION['is_superuser']) {
               </a>
               <div class="collapse" id="auth">
                 <ul class="nav flex-column sub-menu">
-                  <li class="nav-item"> <a class="nav-link" href="/html/error-404.html"> 404 </a></li>
+                  <li class="nav-item"> <a class="nav-link" href="/error-404.php"> 404 </a></li>
                 </ul>
               </div>
             </li>
@@ -541,7 +541,7 @@ if (!isset($_SESSION['is_superuser']) || !$_SESSION['is_superuser']) {
                                           </td>
                                           <td>
                                             <div class="d-flex ">
-                                              <img src="/images/faces/face1.jpg" alt="">
+                                              <img src="images/faces/face1.jpg" alt="">
                                               <div>
                                                 <h6>Brandon Washington</h6>
                                                 <p>Head admin</p>
@@ -576,7 +576,7 @@ if (!isset($_SESSION['is_superuser']) || !$_SESSION['is_superuser']) {
                                           </td>
                                           <td>
                                             <div class="d-flex">
-                                              <img src="/images/faces/face2.jpg" alt="">
+                                              <img src="images/faces/face2.jpg" alt="">
                                               <div>
                                                 <h6>Laura Brooks</h6>
                                                 <p>Head admin</p>
@@ -611,7 +611,7 @@ if (!isset($_SESSION['is_superuser']) || !$_SESSION['is_superuser']) {
                                           </td>
                                           <td>
                                             <div class="d-flex">
-                                              <img src="/images/faces/face3.jpg" alt="">
+                                              <img src="images/faces/face3.jpg" alt="">
                                               <div>
                                                 <h6>Wayne Murphy</h6>
                                                 <p>Head admin</p>
@@ -681,7 +681,7 @@ if (!isset($_SESSION['is_superuser']) || !$_SESSION['is_superuser']) {
                                           </td>
                                           <td>
                                             <div class="d-flex">
-                                              <img src="/images/faces/face5.jpg" alt="">
+                                              <img src="images/faces/face5.jpg" alt="">
                                               <div>
                                                 <h6>Katherine Butler</h6>
                                                 <p>Head admin</p>
@@ -967,7 +967,7 @@ if (!isset($_SESSION['is_superuser']) || !$_SESSION['is_superuser']) {
                                       <div class="mt-3">
                                         <div class="wrapper d-flex align-items-center justify-content-between py-2 border-bottom">
                                           <div class="d-flex">
-                                            <img class="img-sm rounded-10" src="/images/faces/face1.jpg" alt="profile">
+                                            <img class="img-sm rounded-10" src="images/faces/face1.jpg" alt="profile">
                                             <div class="wrapper ms-3">
                                               <p class="ms-1 mb-1 fw-bold">Brandon Washington</p>
                                               <small class="text-muted mb-0">162543</small>
@@ -977,7 +977,7 @@ if (!isset($_SESSION['is_superuser']) || !$_SESSION['is_superuser']) {
                                         </div>
                                         <div class="wrapper d-flex align-items-center justify-content-between py-2 border-bottom">
                                           <div class="d-flex">
-                                            <img class="img-sm rounded-10" src="/images/faces/face2.jpg" alt="profile">
+                                            <img class="img-sm rounded-10" src="images/faces/face2.jpg" alt="profile">
                                             <div class="wrapper ms-3">
                                               <p class="ms-1 mb-1 fw-bold">Wayne Murphy</p>
                                               <small class="text-muted mb-0">162543</small>
@@ -987,7 +987,7 @@ if (!isset($_SESSION['is_superuser']) || !$_SESSION['is_superuser']) {
                                         </div>
                                         <div class="wrapper d-flex align-items-center justify-content-between py-2 border-bottom">
                                           <div class="d-flex">
-                                            <img class="img-sm rounded-10" src="/images/faces/face3.jpg" alt="profile">
+                                            <img class="img-sm rounded-10" src="images/faces/face3.jpg" alt="profile">
                                             <div class="wrapper ms-3">
                                               <p class="ms-1 mb-1 fw-bold">Katherine Butler</p>
                                               <small class="text-muted mb-0">162543</small>
@@ -997,7 +997,7 @@ if (!isset($_SESSION['is_superuser']) || !$_SESSION['is_superuser']) {
                                         </div>
                                         <div class="wrapper d-flex align-items-center justify-content-between py-2 border-bottom">
                                           <div class="d-flex">
-                                            <img class="img-sm rounded-10" src="/images/faces/face4.jpg" alt="profile">
+                                            <img class="img-sm rounded-10" src="images/faces/face4.jpg" alt="profile">
                                             <div class="wrapper ms-3">
                                               <p class="ms-1 mb-1 fw-bold">Matthew Bailey</p>
                                               <small class="text-muted mb-0">162543</small>
@@ -1007,7 +1007,7 @@ if (!isset($_SESSION['is_superuser']) || !$_SESSION['is_superuser']) {
                                         </div>
                                         <div class="wrapper d-flex align-items-center justify-content-between pt-2">
                                           <div class="d-flex">
-                                            <img class="img-sm rounded-10" src="/images/faces/face5.jpg" alt="profile">
+                                            <img class="img-sm rounded-10" src="images/faces/face5.jpg" alt="profile">
                                             <div class="wrapper ms-3">
                                               <p class="ms-1 mb-1 fw-bold">Rafell John</p>
                                               <small class="text-muted mb-0">Alaska, USA</small>
@@ -1038,23 +1038,23 @@ if (!isset($_SESSION['is_superuser']) || !$_SESSION['is_superuser']) {
     </div>
     <!-- container-scroller -->
     <!-- plugins:js -->
-    <script src="/assets/js/vendor.bundle.base.js"></script>
-    <script src="/assets/js/bootstrap-datepicker.min.js"></script>
+    <script src="assets/js/vendor.bundle.base.js"></script>
+    <script src="assets/js/bootstrap-datepicker.min.js"></script>
     <!-- endinjec/assetst -->
     <!-- Plugin j/assetss for this page -->
-    <script src="/assets/js/chart.umd.js"></script>
-    <script src="/assets/js/progressbar.min.js"></script>
+    <script src="assets/js/chart.umd.js"></script>
+    <script src="assets/js/progressbar.min.js"></script>
     <!-- End plug/assetsin js for this page -->
     <!-- inject:j/assetss -->
-    <script src="/assets/js/off-canvas.js"></script>
-    <script src="/assets/js/template.js"></script>
-    <script src="/assets/js/settings.js"></script>
-    <script src="/assets/js/hoverable-collapse.js"></script>
-    <script src="/assets/js/todolist.js"></script>
-    <!-- endinjec/assetst -->
+    <script src="assets/js/off-canvas.js"></script>
+    <script src="assets/js/template.js"></script>
+    <script src="assets/js/settings.js"></script>
+    <script src="assets/js/hoverable-collapse.js"></script>
+    <script src="assets/js/todolist.js"></script>
+    <!-- endinjecassetst -->
     <!-- Custom j/assetss for this page-->
-    <script src="/assets/js/jquery.cookie.js" type="text/javascript"></script>
-    <script src="/assets/js/dashboard.js"></script>
+    <script src="assets/js/jquery.cookie.js" type="text/javascript"></script>
+    <script src="assets/js/dashboard.js"></script>
     <!-- <script src="/js/Chart.roundedBarCharts.js"></script> -->
     <!-- End custom js for this page-->
   </body>

@@ -6,21 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>ClicCell </title>
     <!-- plugins:css -->
-    <link rel="stylesheet" href="/css/feather.css">
-    <link rel="stylesheet" href="/css/materialdesignicons.min.css">
-    <link rel="stylesheet" href="/css/themify-icons.css">
-    <link rel="stylesheet" href="/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/css/typicons.css">
-    <link rel="stylesheet" href="/css/simple-line-icons.css">
-    <link rel="stylesheet" href="/css/vendor.bundle.base.css">
-    <link rel="stylesheet" href="/css/bootstrap-datepicker.min.css">
+    <link rel="stylesheet" href="assets/css/feather.css">
+    <link rel="stylesheet" href="assets/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="assets/css/themify-icons.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/typicons.css">
+    <link rel="stylesheet" href="assets/css/simple-line-icons.css">
+    <link rel="stylesheet" href="assets/css/vendor.bundle.base.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-datepicker.min.css">
     <!-- endinject -->
     <!-- Plugin css for this page -->
     <!-- End plugin css for this page -->
     <!-- inject:css -->
-    <link rel="stylesheet" href="/assets/css/styless.css">
+    <link rel="stylesheet" href="assets/css/styless.css">
     <!-- endinject -->
-    <link rel="shortcut icon" href="/images/favicon.png" />
+    <link rel="shortcut icon" href="images/favicon.png" />
   </head>
   <body>
     <div class="container-scroller">
@@ -62,11 +62,11 @@
     <!-- Plugin js for this page -->
     <!-- End plugin js for this page -->
     <!-- inject:js -->
-    <script src="/js/off-canvas.js"></script>
-    <script src="/js/template.js"></script>
-    <script src="/js/settings.js"></script>
-    <script src="/js/hoverable-collapse.js"></script>
-    <script src="/js/todolist.js"></script>
+    <script src="assets/js/off-canvas.js"></script>
+    <script src="assets/js/template.js"></script>
+    <script src="assets/js/settings.js"></script>
+    <script src="assets/js/hoverable-collapse.js"></script>
+    <script src="assets/js/todolist.js"></script>
     <!-- endinject -->
   </body>
 </html>

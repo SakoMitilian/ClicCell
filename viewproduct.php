@@ -32,11 +32,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['remove_product'])) {
     <title>Product View</title>
     <!-- Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="/assets/css/view.css">
-    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/view.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
-<a href="admin.php" class="logo"><img src="/images/CLIC_CELL-modified.png" width="50px" height="50px"></a>
+<a href="admin.php" class="logo"><img src="images/CLIC_CELL-modified.png" width="50px" height="50px"></a>
     <div class="container">
         <h2>Product List</h2>
         <table class="table table-hover">

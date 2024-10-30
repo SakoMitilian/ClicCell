@@ -3,6 +3,7 @@ include 'connection.php';
 include 'header.php';
 ?>
 
+
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center">
     <div class="container text-center position-relative" data-aos="fade-in" data-aos-delay="200">
@@ -20,27 +21,27 @@ include 'header.php';
         <div class="row">
             
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center" data-aos="zoom-in" data-aos-delay="100">
-            <img src="/images/spark.jpeg" class="img-fluid" alt="">
+            <img src="images/spark.jpeg" class="img-fluid" alt="">
           </div>
 
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center" data-aos="zoom-in" data-aos-delay="200">
-            <img src="/images/R.png" class="img-fluid" alt="">
+            <img src="images/R.png" class="img-fluid" alt="">
           </div>
 
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center" data-aos="zoom-in" data-aos-delay="300">
-            <img src="/images/samsung logo.png" class="img-fluid" alt="">
+            <img src="images/samsung logo.png" class="img-fluid" alt="">
           </div>
 
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center" data-aos="zoom-in" data-aos-delay="400">
-            <img src="/images/lenovo-logo-0.png" class="img-fluid" alt="">
+            <img src="images/lenovo-logo-0.png" class="img-fluid" alt="">
           </div>
 
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center" data-aos="zoom-in" data-aos-delay="500">
-            <img src="/images/Alienware-Logo.png" class="img-fluid" alt="">
+            <img src="images/Alienware-Logo.png" class="img-fluid" alt="">
           </div>
 
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center" data-aos="zoom-in" data-aos-delay="600">
-            <img src="/images/hp logo.png" class="img-fluid" alt="">
+            <img src="images/hp logo.png" class="img-fluid" alt="">
           </div>
 
         </div>

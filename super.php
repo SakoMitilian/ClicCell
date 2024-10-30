@@ -4,7 +4,7 @@ include 'connection.php';
 session_start();
 
 if (!isset($_SESSION['is_superuser']) || !$_SESSION['is_superuser']) {
-    header("Location: /error-404.html");
+    header("Location: error-404.php");
     exit();
   }
 
@@ -37,13 +37,14 @@ $result = $conn->query($sql);
     <title>Superuser Management</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/assets/css/styles.css">
-    <link rel="stylesheet" href="/assets/css/user.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/user.css">
     
 </head>
 <body>
-<a href="admin.php" class="logo"><img src="/images/CLIC_CELL-modified.png" width="50px" height="50px"></a>
+<a href="admin.php" class="logo"><img src="images/CLIC_CELL-modified.png" width="50px" height="50px"></a>
 <div class="container mt-5">
+    
     <h2 class="mb-4">Superuser Management</h2>
     <table class="table">
         <thead>

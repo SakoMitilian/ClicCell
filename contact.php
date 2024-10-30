@@ -59,7 +59,7 @@ include 'header.php';
                     </div>
                     <div class="text-center"><button type="submit">Send Message</button></div>
                     <div><a href="https://wa.me/12109640619" class="whatsapp-button" target="_blank" aria-label="Chat with us on WhatsApp">
-                        <img src="/images/whatsapplogo.png" alt="WhatsApp Logo">
+                        <img src="images/whatsapplogo.png" alt="WhatsApp Logo">
                     </a></div>
                 </form>
             </div>
