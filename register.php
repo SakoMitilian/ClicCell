@@ -8,13 +8,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $password = $_POST['password'];
     $confirm_password = $_POST['confirm_password'];
 
-    // Perform input validation
     if (empty($phone) || empty($email) || empty($password) || empty($confirm_password)) {
         $error = "All fields are required.";
     } elseif ($password !== $confirm_password) {
         $error = "Password and Confirm Password do not match.";
     } else {
-        // Hash the password
         $hashed_password = password_hash($password, PASSWORD_DEFAULT);
 
         // Insert user data into the database
