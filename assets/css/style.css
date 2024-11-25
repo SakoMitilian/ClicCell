@@ -1,6 +1,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
+  background-color: #e6e8f4;
 }
 
 a {
@@ -9,7 +10,7 @@ a {
 }
 
 a:hover {
-  color: #00cc95;
+  color: red;
   text-decoration: none;
 }
 
@@ -311,7 +312,7 @@ h6 {
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
-  background-color: #fff;
+  background-color: #e6e8f4;
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -461,7 +462,7 @@ section {
 }
 
 .section-bg {
-  background-color: #f6f6f7;
+  background-color: #e6e8f4;
 }
 
 .section-title {
@@ -496,7 +497,7 @@ section {
 # Clients
 --------------------------------------------------------------*/
 .clients {
-  background: #f6f6f7;
+  background: #e6e8f4;
   text-align: center;
   padding: 5px 0;
 }
@@ -886,7 +887,7 @@ section {
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background-color: #fff;
+  background-color: #e6e8f4;
   opacity: 1;
   border: 1px solid red;
 }
@@ -1002,13 +1003,13 @@ section {
 .testimonials .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background-color: #fff;
+  background-color: #e6e8f4;
   opacity: 1;
   border: 1px solid red;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: red;
+  background-color: #e6e8f4;
 }
 
 /*--------------------------------------------------------------

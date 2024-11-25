@@ -4,7 +4,7 @@
 }
 body{
     min-height: 100vh;
-    background-image: url(/images/Backgroundimg.jpg);
+    background-color: #e6e8f4;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

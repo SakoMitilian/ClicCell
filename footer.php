@@ -13,6 +13,14 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
+  <footer class="footer">
+        <strong>Clic Cell</strong><br>
+        <strong>Address:</strong> Assaf Khoury Street, Ashdjian Building, Bourj Hammoud, Beirut, Lebanon<br>
+        <strong>Phone:</strong> +961 76 934 532<br>
+        <strong>Email:</strong> <a href="asdouriann@gmail.com">asdouriann@gmail.com</a><br>
+        <strong>Website:</strong> <a href="http://www.cliccell.store">www.cliccell.store</a><br><br>
+    </footer>
+<link rel="stylesheet" href="assets/css/footer.css">
 </body>
 
 </html>
